@@ -1,0 +1,12 @@
+Source: ros-hydro-genrb
+Section: misc
+Priority: extra
+Maintainer: Takashi Ogura <t.ogura@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-genmsg
+Homepage: http://wiki.ros.org/genrb
+Standards-Version: 3.9.2
+
+Package: ros-hydro-genrb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-genmsg
+Description: ruby ROS message and service generators
